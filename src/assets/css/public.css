@@ -1,0 +1,30 @@
+*{
+  margin: 0;padding: 0;text-decoration: none;list-style: none;font-size: 16px;line-height: 32px;outline: none;
+}
+@font-face { font-family: "iconfont"; src: url('../iconfont.ttf') format('truetype'); }
+input{
+  font-size: 16px;
+}
+.el-input-group__prepend{
+  font-family: iconfont;background: none!important;
+}
+.el-button{
+  padding: 3px 15px!important;
+
+}
+.el-button--primary{
+  background-color: #363F6C!important;
+  border-color: #363F6C!important;margin-left: 20px!important;
+}
+.el-table th, .el-table tr:nth-of-type(n){
+  background-color:#F5F6FA ;border: none;
+}
+.el-table th, .el-table tr:nth-of-type(n+1){
+  background-color:#EDEFF8 ;border: none;
+}
+.el-table th, .el-table tr td,.el-table th, .el-table tr th{
+  text-align: center;
+}
+.el-table td{
+  padding: 6px 0!important;
+}
